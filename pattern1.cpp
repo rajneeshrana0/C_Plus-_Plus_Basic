@@ -1,0 +1,32 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int n;
+    cout << "Enter the value of n: ";
+    cin >> n;
+    int i = 1;
+    int count = 1;
+    while (i <= n)
+    {
+        int j = 1;
+
+        while (j <= n)
+        {
+            cout << count;
+            count = count + 1;
+            j++;
+        }
+        cout << endl;
+        i++;
+    }
+
+    return 0;
+}
+//       Enter the value of n: 5
+//       12345
+//       678910
+//       1112131415
+//       1617181920
+//       2122232425
