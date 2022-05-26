@@ -15,6 +15,9 @@ int power()
 
 int main()
 {
-    cout << "Power of a and b is : " << power() << endl;
+    int ans = power();
+
+    cout << "Power of a and b is : " << ans << endl; // Optimized Way to call a function
+    // cout << "Power of a and b is : " << power() << endl;
     return 0;
 }
